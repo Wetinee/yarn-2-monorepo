@@ -1,0 +1,8 @@
+{
+  "name": "@workspaces/rpc-chasis",
+  "main": "index.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "@workspaces/common": "workspace:common"
+  }
+}

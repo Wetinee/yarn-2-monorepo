@@ -3,18 +3,42 @@
 
 __metadata:
   version: 4
+  cacheKey: 7
 
 "@workspaces/common@workspace:common":
   version: 0.0.0-use.local
   resolution: "@workspaces/common@workspace:common"
+  dependencies:
+    gb-random: ^1.1.0
+  languageName: unknown
+  linkType: soft
+
+"@workspaces/rpc-chasis@1.0.0, @workspaces/rpc-chasis@workspace:rpc/rpc-chasis":
+  version: 0.0.0-use.local
+  resolution: "@workspaces/rpc-chasis@workspace:rpc/rpc-chasis"
+  dependencies:
+    "@workspaces/common": "workspace:common"
+  languageName: unknown
+  linkType: soft
+
+"gb-random@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "gb-random@npm:1.1.0"
+  checksum: 371a10b96f82c6ae080a5b7f360653adcd6915b4dd75dd027d82900a5a616ac9f426a38840d8a7f6a30f2c75b93fc643514bb447f6d1c66f590ed3ba05130cbd
+  languageName: node
+  linkType: hard
+
+"rpc-motor@workspace:rpc/rpc-motor":
+  version: 0.0.0-use.local
+  resolution: "rpc-motor@workspace:rpc/rpc-motor"
+  dependencies:
+    "@workspaces/rpc-chasis": 1.0.0
   languageName: unknown
   linkType: soft
 
 "rpc@workspace:rpc":
   version: 0.0.0-use.local
   resolution: "rpc@workspace:rpc"
-  dependencies:
-    "@workspaces/common": "workspace:common"
   languageName: unknown
   linkType: soft
 

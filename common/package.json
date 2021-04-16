@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "common utilities between projects",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gb-random": "^1.1.0"
+  }
 }

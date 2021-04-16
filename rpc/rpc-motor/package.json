@@ -1,0 +1,6 @@
+{
+  "name": "rpc-motor",
+  "dependencies": {
+    "@workspaces/rpc-chasis": "1.0.0"
+  }
+}

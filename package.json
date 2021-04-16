@@ -3,5 +3,6 @@
   "workspaces": [
     "common",
     "rpc"
-  ]
+  ],
+  "private": true
 }

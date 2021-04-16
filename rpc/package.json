@@ -1,6 +1,9 @@
 {
   "name": "rpc",
-  "dependencies": {
-    "@workspaces/common": "workspace:common"
-  }
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "rpc-chasis",
+    "rpc-motor"
+  ]
 }
