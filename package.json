@@ -1,0 +1,7 @@
+{
+  "name": "test-yarn2-mono",
+  "workspaces": [
+    "common",
+    "rpc"
+  ]
+}
