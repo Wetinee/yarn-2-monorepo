@@ -1,6 +1,6 @@
 # test-yarn2-mono
 
-#### This is a yarn2 monorepo for test
+#### This is a yarn2 monorepo
 
 ##### Here are the steps:
 
@@ -8,7 +8,7 @@
 
   ```yarn set version berry```
 
-* To use pnp, add `nodeLinker: pnp` in the project's root directory
+* To use pnp, add `nodeLinker: pnp` in the project's root directory. This will create a `
 
 * `yarn init` and set your workspaces in `package.json`
 
@@ -16,7 +16,7 @@
 
 * To reference packages in different workspaces, you have to declare it clearly in your workspace's   `package.json`:
   
-  ```$package-name: "workspace: $workspace-name```
+  ```$package-name: "workspace: $workspace-name"```
 
 * If in one workspace there are more than one sub-workspaces, you can declare it in your workspace's `package.json` like this:
   
