@@ -8,7 +8,7 @@
 
   ```yarn set version berry```
 
-* To use pnp, add `nodeLinker: pnp` in the project's root directory. This will create a `
+* To use pnp, add `nodeLinker: pnp` in the project's root directory. This will create a `.yarn` folder and store all de dependencies in the `cache` folder of it.
 
 * `yarn init` and set your workspaces in `package.json`
 
