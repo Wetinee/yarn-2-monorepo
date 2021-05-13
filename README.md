@@ -2,7 +2,7 @@
 
 #### This is a yarn2 monorepo
 
-* Run `yarn`
+* Run `yarn` to install dependencies
 * Enter the `rpc/rpc-motor` repo and run `yarn start`
 
 ##### Here are the steps:
