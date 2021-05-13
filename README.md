@@ -2,6 +2,9 @@
 
 #### This is a yarn2 monorepo
 
+* Run `yarn`
+* Enter the `rpc/rpc-motor` repo and run `yarn start`
+
 ##### Here are the steps:
 
 * Create a test repo and change yarn into version 2 using the following command
