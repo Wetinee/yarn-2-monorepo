@@ -1,5 +1,8 @@
 {
   "name": "rpc-motor",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "@workspaces/rpc-chasis": "1.0.0"
   }
