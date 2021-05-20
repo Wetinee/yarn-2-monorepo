@@ -26,3 +26,5 @@
   ```workspaces:["a", "b"]```
 
 * To reference packages in different sub-workspaces but in the same workspace, you don't have to declare the workspace name again.
+
+* Remember to use `yarn node` instead of `node` to run any javascript files, because `node xxx` would raise err `Cannot find module <require-path>`, see it [here](https://classic.yarnpkg.com/en/docs/pnp/troubleshooting/)
